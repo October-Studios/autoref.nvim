@@ -4,7 +4,7 @@
     height="30"
     width="0px"
   />
-  🎨color-roulette.nvim
+  📖autoref.nvim
   <img
     src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png"
     height="30"
@@ -13,28 +13,28 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/October-Studios/color-roulette.nvim/stargazers">
+  <a href="https://github.com/October-Studios/autoref.nvim/stargazers">
     <img
       alt="Stargazers"
-      src="https://img.shields.io/github/stars/October-Studios/color-roulette.nvim?style=for-the-badge&logo=starship&color=c678dd&logoColor=d9e0ee&labelColor=282a36"
+      src="https://img.shields.io/github/stars/October-Studios/autoref.nvim?style=for-the-badge&logo=starship&color=c678dd&logoColor=d9e0ee&labelColor=282a36"
     />
   </a>
-  <a href="https://github.com/October-Studios/color-roulette.nvim/releases/latest">
+  <a href="https://github.com/October-Studios/autoref.nvim/releases/latest">
     <img
       alt="Releases"
-      src="https://img.shields.io/github/release/October-Studios/color-roulette.nvim.svg?style=for-the-badge&include_prereleases&logo=github&color=F2CDCD&logoColor=d9e0ee&labelColor=282a36"
+      src="https://img.shields.io/github/release/October-Studios/autoref.nvim.svg?style=for-the-badge&include_prereleases&logo=github&color=F2CDCD&logoColor=d9e0ee&labelColor=282a36"
     />
   </a>
-  <a href="https://github.com/October-Studios/color-roulette.nvim/issues">
+  <a href="https://github.com/October-Studios/autoref.nvim/issues">
     <img
       alt="Issues"
-      src="https://img.shields.io/github/issues/October-Studios/color-roulette.nvim?style=for-the-badge&logo=gitbook&color=f0c062&logoColor=d9e0ee&labelColor=282a36"
+      src="https://img.shields.io/github/issues/October-Studios/autoref.nvim?style=for-the-badge&logo=gitbook&color=f0c062&logoColor=d9e0ee&labelColor=282a36"
     />
   </a>
-  <a href="https://github.com/October-Studios/color-roulette.nvim/contributors">
+  <a href="https://github.com/October-Studios/autoref.nvim/contributors">
     <img
       alt="Contributors"
-      src="https://img.shields.io/github/contributors/October-Studios/color-roulette.nvim?style=for-the-badge&logo=opensourceinitiative&color=abcf84&logoColor=d9e0ee&labelColor=282a36"
+      src="https://img.shields.io/github/contributors/October-Studios/autoref.nvim?style=for-the-badge&logo=opensourceinitiative&color=abcf84&logoColor=d9e0ee&labelColor=282a36"
     />
   </a>
 </p>
@@ -43,20 +43,20 @@
 
 ## 💭 About
 
-color-roulette takes in a configuration file with the user's favorite neovim color schemes and randomly chooses from this list with each neovim session.
+autoref creates a key map reference from all installed plugins
 
 ## ⚙️ Setup
 
 - [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
-Plug 'October-Studios/color-roulette.nvim'
+Plug 'October-Studios/autoref.nvim'
 ```
 
 - [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 ```lua
-use('October-Studios/color-roulette.nvim')
+use('October-Studios/autoref.nvim')
 ```
 
 ## ▶️ Usage
@@ -64,31 +64,23 @@ use('October-Studios/color-roulette.nvim')
 ### Default configuration
 
 ```lua
-require('color-roulette').setup {
-  colorschemes = {
-    scheme_1 = 'ron',
-    scheme_2 = 'ron',
-    scheme_3 = 'ron',
-    scheme_4 = 'ron',
-    scheme_5 = 'ron',
-  },
-}
+require('autoref').setup
 ```
 
 Currently, this plugin only supports 5 color schemes in the configuration file.
 
-If you want to get your current color-roulette config, you can do so with:
+If you want to get your current autoref config, you can do so with:
 
 ```lua
-require('color-roulette').get_config()
+require('autoref').get_config()
 ```
 
 ---
 
-### Starting color-roulette
+### Starting autoref
 
 ```lua
-require('color-roulette').setup()
+require('autoref').setup()
 ```
 
 &nbsp;
@@ -98,7 +90,7 @@ require('color-roulette').setup()
   <a href="https://github.com/October-Studios" target="_blank">October Studios</a>
 </p>
 <p align="center">
-  <a href="https://github.com/October-Studios/color-roulette.nvim/blob/main/LICENSE"
+  <a href="https://github.com/October-Studios/autoref.nvim/blob/main/LICENSE"
     ><img
       src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=282a36&colorB=c678dd"
   /></a>
