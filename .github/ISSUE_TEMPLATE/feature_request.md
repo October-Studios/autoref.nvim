@@ -1,6 +1,6 @@
 ---
 name: Feature Request
-about: Request a feature for color-roulette
+about: Request a feature for autoref
 title: "Feat: "
 labels: new feature
 ---
@@ -16,4 +16,4 @@ labels: new feature
 
 ### Motivation
 
-<!-- Explain why you think it should be included in color-roulette.-->
+<!-- Explain why you think it should be included in autoref.-->

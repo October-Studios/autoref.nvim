@@ -1,11 +1,11 @@
 return {
   include = {
-    "lua/color-roulette$",
-    "lua/color-roulette%/.+$",
+    "lua/autoref$",
+    "lua/autoref%/.+$",
   },
   modules = {
-    ["color-roulette"] = "lua/color-roulette.lua",
-    ["color-roulette.*"] = "lua/",
+    ["autoref"] = "lua/autoref.lua",
+    ["autoref.*"] = "lua/",
   },
   statsfile = 'luacov.stats",
   reportfile = 'luacov.report',

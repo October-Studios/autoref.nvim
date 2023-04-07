@@ -1,21 +1,14 @@
 -- Organization: October Studios
 -- Developer: Cameron Howell (@crhowell3)
 -- License: MIT
--- Source: https://github.com/October-Studios/color-roulette.nvim
+-- Source: https://github.com/October-Studios/autoref.nvim
 local api = vim.api
 local config = require('config')
 local uconfig -- Stores user config
 
 local M
 
-local function random_number(limit)
-  return ((os.time() % limit) + 1)
-end
-
-local function roulette()
-  local scheme = uconfig.colorschemes['scheme_' .. random_number(6)]
-  api.nvim_command(('colorscheme ' .. scheme))
-end
+-- Put generation functions here
 
 local function setup(user_config)
   uconfig = config.apply_configuration(user_config)
