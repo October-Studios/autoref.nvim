@@ -18,7 +18,7 @@ local function display_key_bindings()
 		return a.mode < b.mode
 	    end
 	end)
-	
+
 	local bufnr = vim.fn.bufnr('Key Bindings')
 
 	if bufnr ~= -1 then
@@ -51,7 +51,7 @@ local function display_key_bindings()
 		-- Set the buffer's filetype to Markdown
 		vim.bo.filetype = 'markdown'
 		vim.bo.buftype = 'nofile'
-			
+
 
 		-- Disable the buffer's swapfile
 		vim.bo.swapfile = false
@@ -68,12 +68,6 @@ local function display_key_bindings()
 		vim.bo.bufhidden = 'hide'
 	end
 end
-
--- Create a new key binding for displaying the key bindings
-api.nvim_set_keymap('n', '<leader>k', '<cmd>lua display_key_bindings()<CR>', {
-	noremap = true,
-	silent = true
-})
 
 M = {
   display_key_bindings = display_key_bindings,

@@ -67,14 +67,6 @@ use('October-Studios/autoref.nvim')
 require('autoref').setup
 ```
 
-Currently, this plugin only supports 5 color schemes in the configuration file.
-
-If you want to get your current autoref config, you can do so with:
-
-```lua
-require('autoref').get_config()
-```
-
 ---
 
 ### Starting autoref
