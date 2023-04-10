@@ -1,11 +1,11 @@
 PANVIMDOC_TAG_VERSION="v2.7.3"
 
-PANVIMDOWN_VIMDOC="color-roulette"
+PANVIMDOWN_VIMDOC="autoref"
 PANVIMDOC_DESCRIPTION="Randomizes your favorite color schemes for Neovim"
 PANVIMDOC_PANDOC="README.md"
 PANVIMDOC_VERSION="NVIM v0.5.0"
 PANVIMDOC_TOC=true
-PANDOC_OUTPUT="doc/color-roulette.txt"
+PANDOC_OUTPUT="doc/autoref.txt"
 
 PANVIMDOC_INSTALLED=false
 

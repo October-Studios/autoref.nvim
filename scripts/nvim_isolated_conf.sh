@@ -11,13 +11,13 @@ Options:
 
 INIT_TEMPLATE="call plug#begin(\"%s/.local/share/nvim/plugged\")
 \" Your plugins go here like
-Plug 'nvim-color-roulette/color-roulette.nvim'
+Plug 'nvim-autoref/autoref.nvim'
 call plug#end()
 \" Your Vim part of config goes here
 \" colorscheme onedark
 lua << END 
 -- Your lua part of config goes here 
-require'color-roulette'.setup {
+require'autoref'.setup {
 }
 END 
 \" Instructions:
