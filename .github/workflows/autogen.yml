@@ -40,4 +40,4 @@ jobs:
           commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
           commit_message: "chore: autogen (vimdocs+formatting)"
           branch: ${{ github.head_ref }}
-          file_pattern: lua/ doc/color-roulette.txt
+          file_pattern: lua/ doc/autoref.txt

@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Report a problem in color-roulette
+about: Report a problem in autoref
 title: 'Bug: '
 labels: bug
 ---
@@ -8,13 +8,13 @@ labels: bug
 <!--
   Before reporting: search existing issues and
   ensure you are running neovim >= 0.5 and the
-  latest version of color-roulette.
+  latest version of autoref.
 -->
 
 ### Self Checks
 
 <!-- Check these boxes by placing an X in the middle -->
-- [ ] I'm using the latest color-roulette.
+- [ ] I'm using the latest autoref.
 - [ ] I didn't find the issue in existing issues or PRs.
 
 ### How to reproduce the problem
@@ -40,7 +40,7 @@ labels: bug
   reproduce might be ignored and closed without any reply.
 
   This script can help you with that.
-  https://github.com/nvim-color-roulette/color-roulette.nvim/blob/master/scripts/nvim_isolated_conf.sh
+  https://github.com/nvim-autoref/autoref.nvim/blob/master/scripts/nvim_isolated_conf.sh
 
   Create an isolated config directory with:
 
