@@ -1,7 +1,7 @@
 name: autogen
 on:
   push:
-    branches: [main, develop]
+    branches: [develop]
     paths:
       - "lua/**.lua"
       - ".stylua.toml"
@@ -25,8 +25,8 @@ jobs:
       - name: Generate docs with panvimdoc
         uses: kdheepak/panvimdoc@v2.7.1
         with:
-          vimdoc: autocommit
-          description: plugin for automatically committing code changes to version control
+          vimdoc: autoref
+          description: plugin for creating a reference for all defined neovim keybinds
       - name: Apply stylua
         uses: JohnnyMorganz/stylua-action@1.0.0
         with:
